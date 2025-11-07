@@ -1,0 +1,2 @@
+# data_mapping_emb2025
+Love_Shop_Gela_Integ
