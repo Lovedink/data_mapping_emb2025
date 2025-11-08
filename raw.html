@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <script>
+      // Redirecionar para a versão raw do ficheiro especificado
+      const params = new URLSearchParams(window.location.search);
+      const file = params.get("file");
+      if (file) {
+        window.location.replace(`https://raw.githubusercontent.com/Lovedink/data_mapping_emb2025/main/${file}`);
+      } else {
+        document.write("Parâmetro ?file= em falta");
+      }
+    </script>
+  </body>
+</html>
